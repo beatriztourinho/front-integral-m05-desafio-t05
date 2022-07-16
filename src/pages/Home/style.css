@@ -1,0 +1,67 @@
+.bill-box{
+    display: flex;
+    gap:23px;
+    
+}
+
+.bill-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.search-box{
+    display: flex;
+    height: 40px;
+    gap: 16px;
+}
+
+.search-box input{
+    -webkit-box-shadow: 2px 9px 21px -4px #da01750d; 
+    box-shadow: 2px 9px 21px -4px #da01750d;
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    width: 300px;
+}
+
+.search-icon{
+    position: absolute;
+    top: 120px;
+    right: 50px;
+}
+
+.clients-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+.clients-box{
+    display: flex;
+    gap:23px;
+}
+
+.clients-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 18px/25px 'Nunito', sans-serif;
+    border: none;
+    border-radius: 10px;
+    width: 264px;
+    height: 33px;
+        top: 20px;
+        cursor: pointer;
+    background-color: #DA0175;
+        color: #F8F8F9;
+    }
+
+.button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
